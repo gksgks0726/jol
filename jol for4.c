@@ -1,22 +1,24 @@
+
 #include <stdio.h>
 
 int main()
 {
-   int h, m;
-   scanf("%d %d", &h, &m);
-   if(m < 45){
-       
-       m = m + 60;
-       h--;
-       
-       if (h < 0)
-       h = 23;
-       printf("%d %d", h, m - 45);
-   }
-    else if(m > 45)
-        printf("%d %d", h, m - 45);
+    int i = 0, sum = 0, num;
+
+    while(1)
+    {
+        scanf("%d", &num);
+        sum+= num;
+        i++;
+        if(num >= 100) break;
+
+        }
+        printf("%d\n", sum);
+        printf("%.1f", (float) sum / i);
+
     
 
     return 0;
+
 
 }
