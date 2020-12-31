@@ -8,7 +8,7 @@ int main()
     if(num1 < num2){
         for(i = 1; i <= 9; i++){
         for(j = num1; j <= num2; j++){
-            printf("%d * %d = %2d\t", j, i, j * i);
+            printf("%d * %d = %2d   ", j, i, j * i);
         }
         printf("\n");
     }
@@ -17,7 +17,7 @@ int main()
     else{
     for(i = 1; i <= 9; i++){
         for(j = num1; j >= num2; j--){
-            printf("%d * %d = %2d\t", j, i, j * i);
+            printf("%d * %d = %2d   ", j, i, j * i);
         }
         printf("\n");
     }
